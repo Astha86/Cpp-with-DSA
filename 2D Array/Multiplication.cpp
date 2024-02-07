@@ -61,5 +61,3 @@ int main(){
     }
     return 0;
 }
-//astha sahani is the best girl in the coding 
-//she is the only girl who gonna rocks in her field 
