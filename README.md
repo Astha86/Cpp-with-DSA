@@ -27,7 +27,6 @@ This repository is a valuable resource for anyone looking to learn or improve th
 - Stacks
 - Queues
 - Binary Trees
-- Binary Search Trees
 - Maps and Sets
 - Heaps (Priority Queues)
 - Greedy
