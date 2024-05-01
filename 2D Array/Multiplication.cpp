@@ -39,7 +39,7 @@ int main(){
         int res[r1][c2];
         for(int i=0; i<r1; i++){
             for (int j=0; j<c2; j++){
-                // res[i][j] = 0;
+                res[i][j] = 0;
                 for(int k=0; k<c1; k++){
                     res[i][j] += a[i][k] * b[k][j];
                 }
