@@ -2,7 +2,7 @@
 using namespace std;
 
 int find(vector<int> &parent, int x){ // T.C: (log*n);
-    // This method returns which group x belongs to...
+    // This function returns the group where x belongs to...
     if(parent[x] == x) return x;
     return parent[x] = find(parent, parent[x]);
 }
