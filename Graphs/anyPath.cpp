@@ -17,7 +17,7 @@ bool dfs(int curr, int end){
     visited.insert(curr); // mark visited
 
     for(auto neighbour: graph[curr]){
-        if(! visited.count(neighbour)){  // if count is 1 that means visited and if 0 means no visited
+        if(! visited.count(neighbour)){  // if count is 1 that means visited and if 0 means not visited
             bool result = dfs(neighbour, end);
             if(result) return true;
         }
